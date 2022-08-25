@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="14.803" tests="32" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="14.04" tests="32" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -7,7 +7,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\tania\October21_Selenium\RestAssuredAPI_NN\target\test-classes;C:\Users\tania\October21_Selenium\RestAssuredAPI_NN\target\classes;C:\Users\tania\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar;C:\Users\tania\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\tania\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\tania\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\tania\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\tania\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\tania\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\tania\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\tania\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\tania\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\tania\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\tania\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\tania\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar;C:\Users\tania\.m2\repository\io\rest-assured\json-schema-validator\5.1.1\json-schema-validator-5.1.1.jar;C:\Users\tania\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\tania\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\tania\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\tania\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\tania\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\tania\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\tania\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\tania\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\tania\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\tania\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\tania\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\tania\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\tania\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\tania\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\tania\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\tania\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\tania\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\tania\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\tania\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\tania\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\tania\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\tania\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\tania\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\tania\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\tania\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\tania\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\tania\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\tania\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\tania\.m2\repository\io\cucumber\cucumber-java\7.6.0\cucumber-java-7.6.0.jar;C:\Users\tania\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\tania\.m2\repository\io\cucumber\cucumber-core\7.6.0\cucumber-core-7.6.0.jar;C:\Users\tania\.m2\repository\io\cucumber\cucumber-gherkin\7.6.0\cucumber-gherkin-7.6.0.jar;C:\Users\tania\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.6.0\cucumber-gherkin-messages-7.6.0.jar;C:\Users\tania\.m2\repository\io\cucumber\gherkin\24.0.0\gherkin-24.0.0.jar;C:\Users\tania\.m2\repository\io\cucumber\messages\19.0.0\messages-19.0.0.jar;C:\Users\tania\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\tania\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\tania\.m2\repository\io\cucumber\datatable\7.6.0\datatable-7.6.0.jar;C:\Users\tania\.m2\repository\io\cucumber\cucumber-plugin\7.6.0\cucumber-plugin-7.6.0.jar;C:\Users\tania\.m2\repository\io\cucumber\docstring\7.6.0\docstring-7.6.0.jar;C:\Users\tania\.m2\repository\io\cucumber\html-formatter\20.0.0\html-formatter-20.0.0.jar;C:\Users\tania\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\tania\.m2\repository\io\cucumber\cucumber-picocontainer\7.6.0\cucumber-picocontainer-7.6.0.jar;C:\Users\tania\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\tania\.m2\repository\io\cucumber\cucumber-testng\7.6.0\cucumber-testng-7.6.0.jar;C:\Users\tania\.m2\repository\net\masterthought\cucumber-reporting\5.7.2\cucumber-reporting-5.7.2.jar;C:\Users\tania\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.2.2\jackson-databind-2.13.2.2.jar;C:\Users\tania\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.2\jackson-annotations-2.13.2.jar;C:\Users\tania\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.2\jackson-core-2.13.2.jar;C:\Users\tania\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.13.2\jackson-datatype-jsr310-2.13.2.jar;C:\Users\tania\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\tania\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\tania\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\tania\.m2\repository\joda-time\joda-time\2.10.14\joda-time-2.10.14.jar;C:\Users\tania\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\tania\.m2\repository\org\codehaus\plexus\plexus-utils\3.4.2\plexus-utils-3.4.2.jar;C:\Users\tania\.m2\repository\org\jsoup\jsoup\1.15.1\jsoup-1.15.1.jar;C:\Users\tania\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\tania\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\tania\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\tania\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\tania\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\tania\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\tania\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20211018.2\owasp-java-html-sanitizer-20211018.2.jar;C:\Users\tania\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\tania\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\tania\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\tania\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\tania\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
+    <property name="java.class.path" value="C:\Users\tania\October21_Selenium\RestAssuredAPINN\target\test-classes;C:\Users\tania\October21_Selenium\RestAssuredAPINN\target\classes;C:\Users\tania\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar;C:\Users\tania\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\tania\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\tania\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\tania\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\tania\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\tania\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\tania\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\tania\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\tania\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\tania\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\tania\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\tania\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar;C:\Users\tania\.m2\repository\io\rest-assured\json-schema-validator\5.1.1\json-schema-validator-5.1.1.jar;C:\Users\tania\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\tania\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\tania\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\tania\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\tania\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\tania\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\tania\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\tania\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\tania\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\tania\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\tania\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\tania\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\tania\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\tania\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\tania\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\tania\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\tania\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\tania\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\tania\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\tania\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\tania\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\tania\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\tania\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\tania\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\tania\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\tania\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\tania\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\tania\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\tania\.m2\repository\io\cucumber\cucumber-java\7.6.0\cucumber-java-7.6.0.jar;C:\Users\tania\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\tania\.m2\repository\io\cucumber\cucumber-core\7.6.0\cucumber-core-7.6.0.jar;C:\Users\tania\.m2\repository\io\cucumber\cucumber-gherkin\7.6.0\cucumber-gherkin-7.6.0.jar;C:\Users\tania\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.6.0\cucumber-gherkin-messages-7.6.0.jar;C:\Users\tania\.m2\repository\io\cucumber\gherkin\24.0.0\gherkin-24.0.0.jar;C:\Users\tania\.m2\repository\io\cucumber\messages\19.0.0\messages-19.0.0.jar;C:\Users\tania\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\tania\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\tania\.m2\repository\io\cucumber\datatable\7.6.0\datatable-7.6.0.jar;C:\Users\tania\.m2\repository\io\cucumber\cucumber-plugin\7.6.0\cucumber-plugin-7.6.0.jar;C:\Users\tania\.m2\repository\io\cucumber\docstring\7.6.0\docstring-7.6.0.jar;C:\Users\tania\.m2\repository\io\cucumber\html-formatter\20.0.0\html-formatter-20.0.0.jar;C:\Users\tania\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\tania\.m2\repository\io\cucumber\cucumber-picocontainer\7.6.0\cucumber-picocontainer-7.6.0.jar;C:\Users\tania\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\tania\.m2\repository\io\cucumber\cucumber-testng\7.6.0\cucumber-testng-7.6.0.jar;C:\Users\tania\.m2\repository\net\masterthought\cucumber-reporting\5.7.2\cucumber-reporting-5.7.2.jar;C:\Users\tania\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.2.2\jackson-databind-2.13.2.2.jar;C:\Users\tania\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.2\jackson-annotations-2.13.2.jar;C:\Users\tania\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.2\jackson-core-2.13.2.jar;C:\Users\tania\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.13.2\jackson-datatype-jsr310-2.13.2.jar;C:\Users\tania\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\tania\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\tania\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\tania\.m2\repository\joda-time\joda-time\2.10.14\joda-time-2.10.14.jar;C:\Users\tania\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\tania\.m2\repository\org\codehaus\plexus\plexus-utils\3.4.2\plexus-utils-3.4.2.jar;C:\Users\tania\.m2\repository\org\jsoup\jsoup\1.15.1\jsoup-1.15.1.jar;C:\Users\tania\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\tania\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\tania\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\tania\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\tania\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\tania\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\tania\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20211018.2\owasp-java-html-sanitizer-20211018.2.jar;C:\Users\tania\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\tania\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\tania\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\tania\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\tania\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -18,20 +18,20 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\tania\AppData\Local\Temp\surefire6808611502441381739\surefirebooter-20220824222837784_3.jar C:\Users\tania\AppData\Local\Temp\surefire6808611502441381739 2022-08-24T22-28-37_412-jvmRun1 surefire-20220824222837784_1tmp surefire_0-20220824222837784_2tmp"/>
-    <property name="surefire.test.class.path" value="C:\Users\tania\October21_Selenium\RestAssuredAPI_NN\target\test-classes;C:\Users\tania\October21_Selenium\RestAssuredAPI_NN\target\classes;C:\Users\tania\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar;C:\Users\tania\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\tania\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\tania\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\tania\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\tania\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\tania\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\tania\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\tania\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\tania\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\tania\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\tania\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\tania\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar;C:\Users\tania\.m2\repository\io\rest-assured\json-schema-validator\5.1.1\json-schema-validator-5.1.1.jar;C:\Users\tania\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\tania\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\tania\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\tania\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\tania\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\tania\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\tania\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\tania\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\tania\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\tania\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\tania\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\tania\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\tania\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\tania\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\tania\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\tania\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\tania\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\tania\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\tania\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\tania\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\tania\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\tania\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\tania\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\tania\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\tania\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\tania\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\tania\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\tania\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\tania\.m2\repository\io\cucumber\cucumber-java\7.6.0\cucumber-java-7.6.0.jar;C:\Users\tania\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\tania\.m2\repository\io\cucumber\cucumber-core\7.6.0\cucumber-core-7.6.0.jar;C:\Users\tania\.m2\repository\io\cucumber\cucumber-gherkin\7.6.0\cucumber-gherkin-7.6.0.jar;C:\Users\tania\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.6.0\cucumber-gherkin-messages-7.6.0.jar;C:\Users\tania\.m2\repository\io\cucumber\gherkin\24.0.0\gherkin-24.0.0.jar;C:\Users\tania\.m2\repository\io\cucumber\messages\19.0.0\messages-19.0.0.jar;C:\Users\tania\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\tania\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\tania\.m2\repository\io\cucumber\datatable\7.6.0\datatable-7.6.0.jar;C:\Users\tania\.m2\repository\io\cucumber\cucumber-plugin\7.6.0\cucumber-plugin-7.6.0.jar;C:\Users\tania\.m2\repository\io\cucumber\docstring\7.6.0\docstring-7.6.0.jar;C:\Users\tania\.m2\repository\io\cucumber\html-formatter\20.0.0\html-formatter-20.0.0.jar;C:\Users\tania\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\tania\.m2\repository\io\cucumber\cucumber-picocontainer\7.6.0\cucumber-picocontainer-7.6.0.jar;C:\Users\tania\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\tania\.m2\repository\io\cucumber\cucumber-testng\7.6.0\cucumber-testng-7.6.0.jar;C:\Users\tania\.m2\repository\net\masterthought\cucumber-reporting\5.7.2\cucumber-reporting-5.7.2.jar;C:\Users\tania\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.2.2\jackson-databind-2.13.2.2.jar;C:\Users\tania\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.2\jackson-annotations-2.13.2.jar;C:\Users\tania\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.2\jackson-core-2.13.2.jar;C:\Users\tania\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.13.2\jackson-datatype-jsr310-2.13.2.jar;C:\Users\tania\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\tania\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\tania\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\tania\.m2\repository\joda-time\joda-time\2.10.14\joda-time-2.10.14.jar;C:\Users\tania\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\tania\.m2\repository\org\codehaus\plexus\plexus-utils\3.4.2\plexus-utils-3.4.2.jar;C:\Users\tania\.m2\repository\org\jsoup\jsoup\1.15.1\jsoup-1.15.1.jar;C:\Users\tania\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\tania\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\tania\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\tania\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\tania\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\tania\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\tania\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20211018.2\owasp-java-html-sanitizer-20211018.2.jar;C:\Users\tania\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\tania\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\tania\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\tania\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\tania\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
+    <property name="sun.java.command" value="C:\Users\tania\AppData\Local\Temp\surefire3157083326408150062\surefirebooter-20220824224444616_3.jar C:\Users\tania\AppData\Local\Temp\surefire3157083326408150062 2022-08-24T22-44-44_235-jvmRun1 surefire-20220824224444616_1tmp surefire_0-20220824224444616_2tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\tania\October21_Selenium\RestAssuredAPINN\target\test-classes;C:\Users\tania\October21_Selenium\RestAssuredAPINN\target\classes;C:\Users\tania\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar;C:\Users\tania\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\tania\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\tania\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\tania\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\tania\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\tania\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\tania\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\tania\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\tania\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\tania\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\tania\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\tania\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar;C:\Users\tania\.m2\repository\io\rest-assured\json-schema-validator\5.1.1\json-schema-validator-5.1.1.jar;C:\Users\tania\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\tania\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\tania\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\tania\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\tania\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\tania\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\tania\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\tania\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\tania\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\tania\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\tania\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\tania\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\tania\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\tania\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\tania\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\tania\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\tania\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\tania\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\tania\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\tania\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\tania\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\tania\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\tania\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\tania\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\tania\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\tania\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\tania\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\tania\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\tania\.m2\repository\io\cucumber\cucumber-java\7.6.0\cucumber-java-7.6.0.jar;C:\Users\tania\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\tania\.m2\repository\io\cucumber\cucumber-core\7.6.0\cucumber-core-7.6.0.jar;C:\Users\tania\.m2\repository\io\cucumber\cucumber-gherkin\7.6.0\cucumber-gherkin-7.6.0.jar;C:\Users\tania\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.6.0\cucumber-gherkin-messages-7.6.0.jar;C:\Users\tania\.m2\repository\io\cucumber\gherkin\24.0.0\gherkin-24.0.0.jar;C:\Users\tania\.m2\repository\io\cucumber\messages\19.0.0\messages-19.0.0.jar;C:\Users\tania\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\tania\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\tania\.m2\repository\io\cucumber\datatable\7.6.0\datatable-7.6.0.jar;C:\Users\tania\.m2\repository\io\cucumber\cucumber-plugin\7.6.0\cucumber-plugin-7.6.0.jar;C:\Users\tania\.m2\repository\io\cucumber\docstring\7.6.0\docstring-7.6.0.jar;C:\Users\tania\.m2\repository\io\cucumber\html-formatter\20.0.0\html-formatter-20.0.0.jar;C:\Users\tania\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\tania\.m2\repository\io\cucumber\cucumber-picocontainer\7.6.0\cucumber-picocontainer-7.6.0.jar;C:\Users\tania\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\tania\.m2\repository\io\cucumber\cucumber-testng\7.6.0\cucumber-testng-7.6.0.jar;C:\Users\tania\.m2\repository\net\masterthought\cucumber-reporting\5.7.2\cucumber-reporting-5.7.2.jar;C:\Users\tania\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.2.2\jackson-databind-2.13.2.2.jar;C:\Users\tania\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.2\jackson-annotations-2.13.2.jar;C:\Users\tania\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.2\jackson-core-2.13.2.jar;C:\Users\tania\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.13.2\jackson-datatype-jsr310-2.13.2.jar;C:\Users\tania\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\tania\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\tania\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\tania\.m2\repository\joda-time\joda-time\2.10.14\joda-time-2.10.14.jar;C:\Users\tania\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\tania\.m2\repository\org\codehaus\plexus\plexus-utils\3.4.2\plexus-utils-3.4.2.jar;C:\Users\tania\.m2\repository\org\jsoup\jsoup\1.15.1\jsoup-1.15.1.jar;C:\Users\tania\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\tania\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\tania\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\tania\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\tania\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\tania\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\tania\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20211018.2\owasp-java-html-sanitizer-20211018.2.jar;C:\Users\tania\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\tania\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\tania\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\tania\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\tania\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\tania"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_202\jre"/>
-    <property name="basedir" value="C:\Users\tania\October21_Selenium\RestAssuredAPI_NN"/>
+    <property name="basedir" value="C:\Users\tania\October21_Selenium\RestAssuredAPINN"/>
     <property name="file.separator" value="\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\tania\AppData\Local\Temp\surefire6808611502441381739\surefirebooter-20220824222837784_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\tania\AppData\Local\Temp\surefire3157083326408150062\surefirebooter-20220824224444616_3.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -47,7 +47,7 @@
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\tania\AppData\Local\Temp\"/>
     <property name="java.version" value="1.8.0_202"/>
-    <property name="user.dir" value="C:\Users\tania\October21_Selenium\RestAssuredAPI_NN"/>
+    <property name="user.dir" value="C:\Users\tania\October21_Selenium\RestAssuredAPINN"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
@@ -60,131 +60,131 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="runScenario[&quot;User should not be able to get all users by sending GET request with no credentials&quot;, &quot;Testing UserAPI Using CRUD Method&quot;](2)" classname="testrunner.TestRestAPIRunner" time="2.67">
+  <testcase name="runScenario[&quot;User should not be able to get all skill data by sending GET request with no authetication&quot;, &quot;Testing UserAPI Using CRUD Method&quot;](2)" classname="testrunner.TestRestAPIRunner" time="2.528">
     <system-out><![CDATA[
-@skillAPI
-Scenario: User should not be able to get already deleted or non-existing skill id # features/skillAPI.feature:53
-
-@skillAPI
-Scenario: User should be able to get all skill data by sending GET request with valid authetication # features/skillAPI.feature:9
-
-@skillAPI
-Scenario: User should not be able to get all skill data by sending GET request with no authetication # features/skillAPI.feature:4
-
 @userAPI
 Scenario: User should not be able to get all users by sending GET request with no credentials # features/userAPI.feature:4
-
-@skillAPI
-Scenario: User should not be able to send PUT request with invalid data         # features/skillAPI.feature:41
 
 @skillAPI
 Scenario: User should be able to create new skill detail by sending POST request     # features/skillAPI.feature:22
 
 @skillAPI
-Scenario: User should be able to get skill data by sending GET request for specific skill id # features/skillAPI.feature:15
+Scenario: User should not be able to get already deleted or non-existing skill id # features/skillAPI.feature:53
+
+@skillAPI
+Scenario: User should be able to send PUT request with valid credentials         # features/skillAPI.feature:35
 
 @skillAPI
 Scenario: User should be able to send DELETE request with valid credentials # features/skillAPI.feature:47
 
 @skillAPI
+Scenario: User should not be able to get all skill data by sending GET request with no authetication # features/skillAPI.feature:4
+
+@skillAPI
+Scenario: User should be able to get skill data by sending GET request for specific skill id # features/skillAPI.feature:15
+
+@skillAPI
 Scenario: User should not be able to create new user by sending already existing skill id                  # features/skillAPI.feature:29
 
 @skillAPI
-Scenario: User should be able to send PUT request with valid credentials         # features/skillAPI.feature:35
+Scenario: User should not be able to send PUT request with invalid data         # features/skillAPI.feature:41
+
+@skillAPI
+Scenario: User should be able to get all skill data by sending GET request with valid authetication # features/skillAPI.feature:9
   Given user provides baseUri with no authetication details                                   # stepDefinitions.CommonStepDef.user_provides_base_uri_for_with_no_authetication_details()
   Given user provides baseUri with no authetication details                                          # stepDefinitions.CommonStepDef.user_provides_base_uri_for_with_no_authetication_details()
-  Given user provides baseUri with valid authetication details                    # stepDefinitions.CommonStepDef.user_provides_base_uri_with_valid_authetication_details()
-  Given user provides baseUri with valid authetication details                                      # stepDefinitions.CommonStepDef.user_provides_base_uri_with_valid_authetication_details()
-  Given user provides baseUri with valid authetication details                  # stepDefinitions.CommonStepDef.user_provides_base_uri_with_valid_authetication_details()
-  Given user provides baseUri with valid authetication details                   # stepDefinitions.CommonStepDef.user_provides_base_uri_with_valid_authetication_details()
-  Given user provides baseUri with valid authetication details                       # stepDefinitions.CommonStepDef.user_provides_base_uri_with_valid_authetication_details()
-  Given user provides baseUri with valid authetication details                               # stepDefinitions.CommonStepDef.user_provides_base_uri_with_valid_authetication_details()
   Given user provides baseUri with valid authetication details              # stepDefinitions.CommonStepDef.user_provides_base_uri_with_valid_authetication_details()
+  Given user provides baseUri with valid authetication details                       # stepDefinitions.CommonStepDef.user_provides_base_uri_with_valid_authetication_details()
+  Given user provides baseUri with valid authetication details                   # stepDefinitions.CommonStepDef.user_provides_base_uri_with_valid_authetication_details()
+  Given user provides baseUri with valid authetication details                                      # stepDefinitions.CommonStepDef.user_provides_base_uri_with_valid_authetication_details()
+  Given user provides baseUri with valid authetication details                    # stepDefinitions.CommonStepDef.user_provides_base_uri_with_valid_authetication_details()
+  Given user provides baseUri with valid authetication details                               # stepDefinitions.CommonStepDef.user_provides_base_uri_with_valid_authetication_details()
+  Given user provides baseUri with valid authetication details                  # stepDefinitions.CommonStepDef.user_provides_base_uri_with_valid_authetication_details()
   Given user provides baseUri with valid authetication details                                             # stepDefinitions.CommonStepDef.user_provides_base_uri_with_valid_authetication_details()
-  When user sends GET request with valid endpoint                                             # stepDefinitions.UserAPISteps.user_sends_get_request_with_endpoint_as()
   When user sends GET request with valid endpoint for skillAPI                                       # stepDefinitions.SkillAPISteps.user_sends_get_request_with_valid_endpoint_for_skill_api()
+  When user sends GET request with valid endpoint                                             # stepDefinitions.UserAPISteps.user_sends_get_request_with_endpoint_as()
   Then user should receive response status code as 401                                               # stepDefinitions.CommonStepDef.user_should_receive_response_status_code_as(java.lang.Integer)
   Then user should receive response status code as 401                                        # stepDefinitions.CommonStepDef.user_should_receive_response_status_code_as(java.lang.Integer)
 ]]></system-out>
     <system-err><![CDATA[ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;User should not be able to get all skill data by sending GET request with no authetication&quot;, &quot;Testing UserAPI Using CRUD Method&quot;](2)" classname="testrunner.TestRestAPIRunner" time="2.673"/>
-  <testcase name="runScenario[&quot;User should be able to get all skill data by sending GET request with valid authetication&quot;, &quot;Testing UserAPI Using CRUD Method&quot;](3)" classname="testrunner.TestRestAPIRunner" time="0.11">
+  <testcase name="runScenario[&quot;User should not be able to get all users by sending GET request with no credentials&quot;, &quot;Testing UserAPI Using CRUD Method&quot;](2)" classname="testrunner.TestRestAPIRunner" time="2.529"/>
+  <testcase name="runScenario[&quot;User should not be able to send PUT request with invalid data&quot;, &quot;Testing UserAPI Using CRUD Method&quot;](3)" classname="testrunner.TestRestAPIRunner" time="0.223">
     <system-out><![CDATA[
 @userAPI
 Scenario: User should be able to send GET request with valid credentials # features/userAPI.feature:9
+  Given user provides baseUri with valid authetication details           # stepDefinitions.CommonStepDef.user_provides_base_uri_with_valid_authetication_details()
 
 @userAPI
 Scenario: User should be able to send GET request by specific user id   # features/userAPI.feature:15
-  Given user provides baseUri with valid authetication details           # stepDefinitions.CommonStepDef.user_provides_base_uri_with_valid_authetication_details()
   Given user provides baseUri with valid authetication details          # stepDefinitions.CommonStepDef.user_provides_base_uri_with_valid_authetication_details()
-  When user sends GET request with valid endpoint for skillAPI                                      # stepDefinitions.SkillAPISteps.user_sends_get_request_with_valid_endpoint_for_skill_api()
-  Then user should receive response status code as 200                                              # stepDefinitions.CommonStepDef.user_should_receive_response_status_code_as(java.lang.Integer)
-  And user receives response content-type as "aplication/json"                                      # stepDefinitions.CommonStepDef.user_receives_response_content_type_as(java.lang.String)
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;User should not be able to send PUT request with invalid data&quot;, &quot;Testing UserAPI Using CRUD Method&quot;](4)" classname="testrunner.TestRestAPIRunner" time="0.125">
-    <system-out><![CDATA[
-@userAPI
-Scenario: User should not be able to get valid user details by sending GET request with invalid user id # features/userAPI.feature:22
-  Given user provides baseUri with valid authetication details                                          # stepDefinitions.CommonStepDef.user_provides_base_uri_with_valid_authetication_details()
-{"skill_id":4179,"skill_name":"SDET 70238","message_response":"Successfully Created !!"}
-{"timestamp":"2022-08-25T05:28:38.858+00:00","message":"Skill(id- 0) Not Found !!","details":"uri=/Skills/0"}
+{"skill_id":4181,"skill_name":"SDET 70967","message_response":"Successfully Created !!"}
+  When user sends GET request for already deleted or non-existing skill id        # stepDefinitions.SkillAPISteps.user_sends_get_request_for_already_deleted_or_non_existing_skill_id()
+  Then user should receive response status code as 404                            # stepDefinitions.CommonStepDef.user_should_receive_response_status_code_as(java.lang.Integer)
+{"timestamp":"2022-08-25T05:44:45.452+00:00","message":"Skill(id- 0) Not Found !!","details":"uri=/Skills/0"}
   When user sends PUT request with updated valid Json body and invalid skill id # stepDefinitions.SkillAPISteps.user_sends_put_request_with_updated_valid_json_body_and_invalid_skill_id()
   Then user should receive response status code as 404                          # stepDefinitions.CommonStepDef.user_should_receive_response_status_code_as(java.lang.Integer)
   And user should also receive the message "Skill(id- 0) Not Found !!"          # stepDefinitions.CommonStepDef.user_should_also_receive_the_message(java.lang.String)
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;User should not be able to get valid user details by sending GET request with invalid user id&quot;, &quot;Testing UserAPI Using CRUD Method&quot;](5)" classname="testrunner.TestRestAPIRunner" time="0.692">
+  <testcase name="runScenario[&quot;User should be able to get all skill data by sending GET request with valid authetication&quot;, &quot;Testing UserAPI Using CRUD Method&quot;](4)" classname="testrunner.TestRestAPIRunner" time="0.004">
+    <system-out><![CDATA[  When user sends GET request with valid endpoint for skillAPI                                      # stepDefinitions.SkillAPISteps.user_sends_get_request_with_valid_endpoint_for_skill_api()
+  Then user should receive response status code as 200                                              # stepDefinitions.CommonStepDef.user_should_receive_response_status_code_as(java.lang.Integer)
+  And user receives response content-type as "aplication/json"                                      # stepDefinitions.CommonStepDef.user_receives_response_content_type_as(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;User should be able to send GET request with valid credentials&quot;, &quot;Testing UserAPI Using CRUD Method&quot;](5)" classname="testrunner.TestRestAPIRunner" time="0.412">
     <system-out><![CDATA[
+@userAPI
+Scenario: User should not be able to get valid user details by sending GET request with invalid user id # features/userAPI.feature:22
+  Given user provides baseUri with valid authetication details                                          # stepDefinitions.CommonStepDef.user_provides_base_uri_with_valid_authetication_details()
+
 @userAPI
 Scenario: User should be able to send POST request with valid credentials # features/userAPI.feature:27
   Given user provides baseUri with valid authetication details            # stepDefinitions.CommonStepDef.user_provides_base_uri_with_valid_authetication_details()
-  When user sends GET request for already deleted or non-existing skill id        # stepDefinitions.SkillAPISteps.user_sends_get_request_for_already_deleted_or_non_existing_skill_id()
-  Then user should receive response status code as 404                            # stepDefinitions.CommonStepDef.user_should_receive_response_status_code_as(java.lang.Integer)
-  When user sends GET request with invalid user id as path parameter                                    # stepDefinitions.UserAPISteps.user_sends_get_request_with_invalid_user_id_as_path_parameter()
-  Then user should receive response status code as 404                                                  # stepDefinitions.CommonStepDef.user_should_receive_response_status_code_as(java.lang.Integer)
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;User should be able to send GET request with valid credentials&quot;, &quot;Testing UserAPI Using CRUD Method&quot;](6)" classname="testrunner.TestRestAPIRunner" time="0.085">
-    <system-out><![CDATA[
-@userAPI
-Scenario: User should not be able to create new user by sending invalid request body in POST request             # features/userAPI.feature:33
-  Given user provides baseUri with valid authetication details                                                   # stepDefinitions.CommonStepDef.user_provides_base_uri_with_valid_authetication_details()
-{"timestamp":"2022-08-25T05:28:39.633+00:00","message":"Failed to create new Skill details as Skill already exists !!","details":"uri=/Skills"}
   When user sends GET request with valid endpoint                        # stepDefinitions.UserAPISteps.user_sends_get_request_with_endpoint_as()
   Then user should receive response status code as 200                   # stepDefinitions.CommonStepDef.user_should_receive_response_status_code_as(java.lang.Integer)
   And user receives response content-type as "aplication/json"           # stepDefinitions.CommonStepDef.user_receives_response_content_type_as(java.lang.String)
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;User should not be able to get already deleted or non-existing skill id&quot;, &quot;Testing UserAPI Using CRUD Method&quot;](7)" classname="testrunner.TestRestAPIRunner" time="0.022">
+  <testcase name="runScenario[&quot;User should not be able to get already deleted or non-existing skill id&quot;, &quot;Testing UserAPI Using CRUD Method&quot;](6)" classname="testrunner.TestRestAPIRunner" time="0.107">
     <system-out><![CDATA[
 @userAPI
-Scenario: User should be able to send PUT request with valid credentials                               # features/userAPI.feature:40
+Scenario: User should not be able to create new user by sending invalid request body in POST request             # features/userAPI.feature:33
+  Given user provides baseUri with valid authetication details                                                   # stepDefinitions.CommonStepDef.user_provides_base_uri_with_valid_authetication_details()
   And get request to the skill id should not return the skill id                  # stepDefinitions.SkillAPISteps.get_request_to_the_skill_id_should_not_return_the_skill_id()
-  Given user provides baseUri with valid authetication details                                         # stepDefinitions.CommonStepDef.user_provides_base_uri_with_valid_authetication_details()
   And user should also receive the message "Skill(id- nonExisting) Not Found !!"  # stepDefinitions.CommonStepDef.user_should_also_receive_the_message(java.lang.String)
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;User should not be able to create new user by sending invalid request body in POST request&quot;, &quot;Testing UserAPI Using CRUD Method&quot;](8)" classname="testrunner.TestRestAPIRunner" time="1.391">
+  <testcase name="runScenario[&quot;User should not be able to get valid user details by sending GET request with invalid user id&quot;, &quot;Testing UserAPI Using CRUD Method&quot;](7)" classname="testrunner.TestRestAPIRunner" time="0.087">
+    <system-out><![CDATA[
+@userAPI
+Scenario: User should be able to send PUT request with valid credentials                               # features/userAPI.feature:40
+  Given user provides baseUri with valid authetication details                                         # stepDefinitions.CommonStepDef.user_provides_base_uri_with_valid_authetication_details()
+{"timestamp":"2022-08-25T05:44:46.047+00:00","message":"Failed to create new Skill details as Skill already exists !!","details":"uri=/Skills"}
+  When user sends GET request with invalid user id as path parameter                                    # stepDefinitions.UserAPISteps.user_sends_get_request_with_invalid_user_id_as_path_parameter()
+  Then user should receive response status code as 404                                                  # stepDefinitions.CommonStepDef.user_should_receive_response_status_code_as(java.lang.Integer)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;User should not be able to create new user by sending invalid request body in POST request&quot;, &quot;Testing UserAPI Using CRUD Method&quot;](8)" classname="testrunner.TestRestAPIRunner" time="1.19">
     <system-out><![CDATA[
 @userAPI
 Scenario: User should be able to send DELETE request with valid credentials # features/userAPI.feature:46
   Given user provides baseUri with valid authetication details              # stepDefinitions.CommonStepDef.user_provides_base_uri_with_valid_authetication_details()
-{"timestamp":"2022-08-25T05:28:39.849+00:00","message":"Failed to create new User details as phone number already exists !!","details":"uri=/Users"}
-9168656844
-4180
+9168656834
+4182
 3966
 Skill_ID is: 3966
+{"user_id":"U5287","name":"John,Jonas","phone_number":9168656669,"location":"MA","time_zone":"EST","linkedin_url":"www.linkedin.com/John","education_ug":"Engineering","education_pg":"BSc. Hons","visa_status":"H1b","comments":"test","message_response":"Successfully Created !!"}
 firstUserId is: U23
 {"skill_id":3966,"skill_name":"FqgE"}
+{"skill_id":4182,"skill_name":"SDET 70827","message_response":"Successfully Updated !!"}
   When user sends GET request with valid endpoint and specific skill id                      # stepDefinitions.SkillAPISteps.user_sends_get_request_with_valid_endpoint_and_specific_skill_id()
   Then user should receive response status code as 200                                       # stepDefinitions.CommonStepDef.user_should_receive_response_status_code_as(java.lang.Integer)
 3966
   And user should be able to validate the skill id in the response body                      # stepDefinitions.SkillAPISteps.user_should_be_able_to_validate_the_skill_id_in_the_response_body()
-{"skill_id":4180,"skill_name":"SDET 70559","message_response":"Successfully Updated !!"}
-U5286
+U5288
 {"user_id":"U23","name":"John,Jonas","phone_number":9168656919,"location":"MA","time_zone":"EST","linkedin_url":"www.linkedin.com/John"}
   When user sends GET request with valid path parameter                 # stepDefinitions.UserAPISteps.user_sends_get_request_with_valid_path_parameter()
   Then user should receive response status code as 200                  # stepDefinitions.CommonStepDef.user_should_receive_response_status_code_as(java.lang.Integer)
@@ -194,73 +194,73 @@ U5286
   And user should also receive the message "Failed to create new User details as phone number already exists !!" # stepDefinitions.CommonStepDef.user_should_also_receive_the_message(java.lang.String)
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;User should be able to get skill data by sending GET request for specific skill id&quot;, &quot;Testing UserAPI Using CRUD Method&quot;](10)" classname="testrunner.TestRestAPIRunner" time="0.007">
-    <system-out><![CDATA[  And user should be able to validate json schema for userAPI           # stepDefinitions.UserAPISteps.user_should_be_able_to_validate_json_schema_for_user_api()
-  And user should be able to validate json schema for skillAPI                               # stepDefinitions.SkillAPISteps.user_should_be_able_to_validate_json_schema_for_skill_api()
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;User should be able to send GET request by specific user id&quot;, &quot;Testing UserAPI Using CRUD Method&quot;](10)" classname="testrunner.TestRestAPIRunner" time="0.007"/>
-  <testcase name="runScenario[&quot;User should not be able to get all user-skill data by sending GET request with no authetication&quot;, &quot;Testing UserSkillMapAPI Using CRUD Method&quot;](11)" classname="testrunner.TestRestAPIRunner" time="0.497">
+  <testcase name="runScenario[&quot;User should be able to get skill data by sending GET request for specific skill id&quot;, &quot;Testing UserAPI Using CRUD Method&quot;](9)" classname="testrunner.TestRestAPIRunner" time="0.095">
     <system-out><![CDATA[
 @userAPI
 Scenario: User should not be able to get already deleted or non-existing user id # features/userAPI.feature:52
   Given user provides baseUri with valid authetication details                   # stepDefinitions.CommonStepDef.user_provides_base_uri_with_valid_authetication_details()
+  And user should be able to validate json schema for userAPI           # stepDefinitions.UserAPISteps.user_should_be_able_to_validate_json_schema_for_user_api()
+  And user should be able to validate json schema for skillAPI                               # stepDefinitions.SkillAPISteps.user_should_be_able_to_validate_json_schema_for_skill_api()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;User should be able to send GET request by specific user id&quot;, &quot;Testing UserAPI Using CRUD Method&quot;](10)" classname="testrunner.TestRestAPIRunner" time="0.095"/>
+  <testcase name="runScenario[&quot;User should not be able to get all user-skill data by sending GET request with no authetication&quot;, &quot;Testing UserSkillMapAPI Using CRUD Method&quot;](11)" classname="testrunner.TestRestAPIRunner" time="0.479">
+    <system-out><![CDATA[
+@userSkillMapAPI
+Scenario: User should be able to get all user-skill data by sending GET request with valid authetication # features/userSkillMapAPI.feature:9
 
 @userSkillMapAPI
 Scenario: User should not be able to get all user-skill data by sending GET request with no authetication # features/userSkillMapAPI.feature:4
   Given user provides baseUri with no authetication details                                               # stepDefinitions.CommonStepDef.user_provides_base_uri_for_with_no_authetication_details()
-
-@userSkillMapAPI
-Scenario: User should be able to get all user-skill data by sending GET request with valid authetication # features/userSkillMapAPI.feature:9
   Given user provides baseUri with valid authetication details                                           # stepDefinitions.CommonStepDef.user_provides_base_uri_with_valid_authetication_details()
-{"user_id":"U5286","name":"John,Jonas","phone_number":9168656844,"location":"MA","time_zone":"EST","linkedin_url":"www.linkedin.com/John","education_ug":"Engineering","education_pg":"BSc. Hons","visa_status":"H1b","comments":"test","message_response":"Successfully Updated !!"}
+{"user_id":"U5288","name":"John,Jonas","phone_number":9168656834,"location":"MA","time_zone":"EST","linkedin_url":"www.linkedin.com/John","education_ug":"Engineering","education_pg":"BSc. Hons","visa_status":"H1b","comments":"test","message_response":"Successfully Updated !!"}
+{"timestamp":"2022-08-25T05:44:47.813+00:00","message":"User(id- null) Not Found !!","details":"uri=/Users/null"}
   When user sends GET request with valid endpoint for userSKillMapAPI                                     # stepDefinitions.UserSkillMapAPISteps.user_sends_get_request_with_valid_endpoint_for_user_s_kill_map_api()
   Then user should receive response status code as 401                                                    # stepDefinitions.CommonStepDef.user_should_receive_response_status_code_as(java.lang.Integer)
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;User should be able to send DELETE request with valid credentials&quot;, &quot;Testing UserAPI Using CRUD Method&quot;](12)" classname="testrunner.TestRestAPIRunner" time="0.353">
+  <testcase name="runScenario[&quot;User should be able to get all user-skill data by sending GET request with valid authetication&quot;, &quot;Testing UserSkillMapAPI Using CRUD Method&quot;](12)" classname="testrunner.TestRestAPIRunner" time="0.268">
     <system-out><![CDATA[
 @userSkillMapAPI
 Scenario: User should be able to get user-skill data by sending GET request with valid single user skill id # features/userSkillMapAPI.feature:15
   Given user provides baseUri with valid authetication details                                              # stepDefinitions.CommonStepDef.user_provides_base_uri_with_valid_authetication_details()
-{"timestamp":"2022-08-25T05:28:41.644+00:00","message":"User(id- null) Not Found !!","details":"uri=/Users/null"}
-  When user sends POST request for skillAPI with valid Json body and header          # stepDefinitions.SkillAPISteps.user_sends_post_request_for_skill_api_with_valid_json_body_and_header()
-  Then user should receive response status code as 201                               # stepDefinitions.CommonStepDef.user_should_receive_response_status_code_as(java.lang.Integer)
-  When user sends DELETE request for specific skill id                      # stepDefinitions.SkillAPISteps.user_sends_delete_request_for_specific_skill_id()
-  Then user should receive response status code as 200                      # stepDefinitions.CommonStepDef.user_should_receive_response_status_code_as(java.lang.Integer)
-  And user should also receive the message "The record has been deleted !!" # stepDefinitions.CommonStepDef.user_should_also_receive_the_message(java.lang.String)
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;User should be able to get all user-skill data by sending GET request with valid authetication&quot;, &quot;Testing UserSkillMapAPI Using CRUD Method&quot;](13)" classname="testrunner.TestRestAPIRunner" time="0.031">
-    <system-out><![CDATA[
-@userSkillMapAPI
-Scenario: User should not be able to get user-skill data by sending GET request with invalid single user skill id # features/userSkillMapAPI.feature:21
-  Given user provides baseUri with valid authetication details                                                    # stepDefinitions.CommonStepDef.user_provides_base_uri_with_valid_authetication_details()
   When user sends GET request with valid endpoint for userSKillMapAPI                                    # stepDefinitions.UserSkillMapAPISteps.user_sends_get_request_with_valid_endpoint_for_user_s_kill_map_api()
   Then user should receive response status code as 200                                                   # stepDefinitions.CommonStepDef.user_should_receive_response_status_code_as(java.lang.Integer)
   And user receives response content-type as "aplication/json"                                           # stepDefinitions.CommonStepDef.user_receives_response_content_type_as(java.lang.String)
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;User should be able to create new skill detail by sending POST request&quot;, &quot;Testing UserAPI Using CRUD Method&quot;](14)" classname="testrunner.TestRestAPIRunner" time="0.465">
+  <testcase name="runScenario[&quot;User should be able to send DELETE request with valid credentials&quot;, &quot;Testing UserAPI Using CRUD Method&quot;](13)" classname="testrunner.TestRestAPIRunner" time="0.286">
+    <system-out><![CDATA[
+@userSkillMapAPI
+Scenario: User should not be able to get user-skill data by sending GET request with invalid single user skill id # features/userSkillMapAPI.feature:21
+  Given user provides baseUri with valid authetication details                                                    # stepDefinitions.CommonStepDef.user_provides_base_uri_with_valid_authetication_details()
+  When user sends DELETE request for specific skill id                      # stepDefinitions.SkillAPISteps.user_sends_delete_request_for_specific_skill_id()
+  When user sends POST request for skillAPI with valid Json body and header          # stepDefinitions.SkillAPISteps.user_sends_post_request_for_skill_api_with_valid_json_body_and_header()
+  Then user should receive response status code as 201                               # stepDefinitions.CommonStepDef.user_should_receive_response_status_code_as(java.lang.Integer)
+  Then user should receive response status code as 200                      # stepDefinitions.CommonStepDef.user_should_receive_response_status_code_as(java.lang.Integer)
+  And user should also receive the message "The record has been deleted !!" # stepDefinitions.CommonStepDef.user_should_also_receive_the_message(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;User should not be able to get user-skill data by sending GET request with invalid single user skill id&quot;, &quot;Testing UserSkillMapAPI Using CRUD Method&quot;](14)" classname="testrunner.TestRestAPIRunner" time="0.321">
     <system-out><![CDATA[
 @userSkillMapAPI
 Scenario: User should be able to create a new user skill mapping detail by sending POST request with valid data # features/userSkillMapAPI.feature:26
   Given user provides baseUri with valid authetication details                                                  # stepDefinitions.CommonStepDef.user_provides_base_uri_with_valid_authetication_details()
-  And user should be able to find the new skill detail when he gets the new skill id # stepDefinitions.SkillAPISteps.user_should_be_able_to_find_the_new_skill_detail_when_he_gets_the_new_skill_id()
-  And user should also receive the message "Successfully Created !!"                 # stepDefinitions.CommonStepDef.user_should_also_receive_the_message(java.lang.String)
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;User should not be able to get user-skill data by sending GET request with invalid single user skill id&quot;, &quot;Testing UserSkillMapAPI Using CRUD Method&quot;](15)" classname="testrunner.TestRestAPIRunner" time="0.089">
-    <system-out><![CDATA[
-@userSkillMapAPI
-Scenario: User should not be able to create a new user skill mapping detail by sending POST request with invalid data # features/userSkillMapAPI.feature:33
-  Given user provides baseUri with valid authetication details                                                        # stepDefinitions.CommonStepDef.user_provides_base_uri_with_valid_authetication_details()
-{"timestamp":"2022-08-25T05:28:42.490+00:00","message":"UserSkillId - 967 Not Found !!","details":"uri=/UserSkills/967"}
+{"timestamp":"2022-08-25T05:44:48.707+00:00","message":"UserSkillId - 766 Not Found !!","details":"uri=/UserSkills/766"}
   When user sends GET request with invalid user skill id as path parameter                                        # stepDefinitions.UserSkillMapAPISteps.user_sends_get_request_with_invalid_user_skill_id_as_path_parameter()
   Then user should receive response status code as 404                                                            # stepDefinitions.CommonStepDef.user_should_receive_response_status_code_as(java.lang.Integer)
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;User should not be able to create new user by sending already existing skill id&quot;, &quot;Testing UserAPI Using CRUD Method&quot;](16)" classname="testrunner.TestRestAPIRunner" time="0.155">
+  <testcase name="runScenario[&quot;User should be able to create new skill detail by sending POST request&quot;, &quot;Testing UserAPI Using CRUD Method&quot;](15)" classname="testrunner.TestRestAPIRunner" time="0.251">
+    <system-out><![CDATA[
+@userSkillMapAPI
+Scenario: User should not be able to create a new user skill mapping detail by sending POST request with invalid data # features/userSkillMapAPI.feature:33
+  Given user provides baseUri with valid authetication details                                                        # stepDefinitions.CommonStepDef.user_provides_base_uri_with_valid_authetication_details()
+  And user should be able to find the new skill detail when he gets the new skill id # stepDefinitions.SkillAPISteps.user_should_be_able_to_find_the_new_skill_detail_when_he_gets_the_new_skill_id()
+  And user should also receive the message "Successfully Created !!"                 # stepDefinitions.CommonStepDef.user_should_also_receive_the_message(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;User should not be able to create new user by sending already existing skill id&quot;, &quot;Testing UserAPI Using CRUD Method&quot;](16)" classname="testrunner.TestRestAPIRunner" time="0.105">
     <system-out><![CDATA[
 @userSkillMapAPI
 Scenario: User should not able to update an existing user skill mapping detail by sending PUT request # features/userSkillMapAPI.feature:38
@@ -270,61 +270,61 @@ Scenario: User should not able to update an existing user skill mapping detail b
   And user should also receive the message "FailedÂ toÂ createÂ newÂ SkillÂ detailsÂ asÂ SkillÂ alreadyÂ existsÂ !!" # stepDefinitions.CommonStepDef.user_should_also_receive_the_message(java.lang.String)
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;User should be able to send POST request with valid credentials&quot;, &quot;Testing UserAPI Using CRUD Method&quot;](17)" classname="testrunner.TestRestAPIRunner" time="0.214">
+  <testcase name="runScenario[&quot;User should be able to send POST request with valid credentials&quot;, &quot;Testing UserAPI Using CRUD Method&quot;](17)" classname="testrunner.TestRestAPIRunner" time="0.369">
     <system-out><![CDATA[
 @userSkillMapAPI
 Scenario: User should not able to update an existing user skill mapping detail by sending PUT request # features/userSkillMapAPI.feature:44
   Given user provides baseUri with valid authetication details                                        # stepDefinitions.CommonStepDef.user_provides_base_uri_with_valid_authetication_details()
 user_skill_id is: US4350
+{"timestamp":"2022-08-25T05:44:49.317+00:00","message":"UserId - 0 Not Found !!","details":"uri=/UserSkills"}
   When user sends POST request with valid Json body and header            # stepDefinitions.UserAPISteps.user_sends_post_request_with_valid_json_body()
   Then user should receive response status code as 201                    # stepDefinitions.CommonStepDef.user_should_receive_response_status_code_as(java.lang.Integer)
   And user should also receive the message "Successfully Created !!"      # stepDefinitions.CommonStepDef.user_should_also_receive_the_message(java.lang.String)
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;User should be able to send DELETE request with valid credentials&quot;, &quot;Testing UserAPI Using CRUD Method&quot;](18)" classname="testrunner.TestRestAPIRunner" time="0.545">
+  <testcase name="runScenario[&quot;User should be able to send DELETE request with valid credentials&quot;, &quot;Testing UserAPI Using CRUD Method&quot;](18)" classname="testrunner.TestRestAPIRunner" time="0.248">
     <system-out><![CDATA[
 @userSkillMapAPI
 Scenario: User should be able to send DELETE request for exising user skill mapping detail # features/userSkillMapAPI.feature:49
   Given user provides baseUri with valid authetication details                             # stepDefinitions.CommonStepDef.user_provides_base_uri_with_valid_authetication_details()
-{"timestamp":"2022-08-25T05:28:43.000+00:00","message":"UserId - 0 Not Found !!","details":"uri=/UserSkills"}
-{"timestamp":"2022-08-25T05:28:43.257+00:00","message":"UserSkillId - null Not Found !!","details":"uri=/UserSkills/null"}
   When user sends DELETE request for specific userId                        # stepDefinitions.UserAPISteps.user_sends_delete_request_for_specific_user_id()
   Then user should receive response status code as 200                      # stepDefinitions.CommonStepDef.user_should_receive_response_status_code_as(java.lang.Integer)
   And user should also receive the message "The record has been deleted !!" # stepDefinitions.CommonStepDef.user_should_also_receive_the_message(java.lang.String)
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;User should be able to send PUT request with valid credentials&quot;, &quot;Testing UserAPI Using CRUD Method&quot;](19)" classname="testrunner.TestRestAPIRunner" time="0.122">
+  <testcase name="runScenario[&quot;User should be able to get user-skill data by sending GET request with valid single user skill id&quot;, &quot;Testing UserSkillMapAPI Using CRUD Method&quot;](19)" classname="testrunner.TestRestAPIRunner" time="0.058">
     <system-out><![CDATA[
 @userSkillMapAPI
 Scenario: User should not be able to get already deleted or non-existing user id    # features/userSkillMapAPI.feature:55
   Given user provides baseUri with valid authetication details                      # stepDefinitions.CommonStepDef.user_provides_base_uri_with_valid_authetication_details()
-  When user sends PUT request with updated valid Json body and specific skill id # stepDefinitions.SkillAPISteps.user_sends_put_request_with_updated_valid_json_body_and_specific_skill_id()
-  Then user should receive response status code as 201                           # stepDefinitions.CommonStepDef.user_should_receive_response_status_code_as(java.lang.Integer)
-  And user should also receive the message "Successfully Updated !!"             # stepDefinitions.CommonStepDef.user_should_also_receive_the_message(java.lang.String)
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;User should be able to get user-skill data by sending GET request with valid single user skill id&quot;, &quot;Testing UserSkillMapAPI Using CRUD Method&quot;](20)" classname="testrunner.TestRestAPIRunner" time="0.225">
-    <system-out><![CDATA[
-@UserSkillMapGet
-Scenario: User should not be able to get all users with all skill details by sending GET request with no credentials # features/userSkillMapGetAPI.feature:4
-  Given user provides baseUri with no authetication details                                                          # stepDefinitions.CommonStepDef.user_provides_base_uri_for_with_no_authetication_details()
+{"timestamp":"2022-08-25T05:44:49.696+00:00","message":"UserSkillId - null Not Found !!","details":"uri=/UserSkills/null"}
 {"user_skill_id":"US4350","user_id":"U5064","skill_id":3968,"months_of_exp":59}
   When user sends GET request with valid user skill id as path parameter                                    # stepDefinitions.UserSkillMapAPISteps.user_sends_get_request_with_valid_user_skill_is_as_path_parameter()
   Then user should receive response status code as 200                                                      # stepDefinitions.CommonStepDef.user_should_receive_response_status_code_as(java.lang.Integer)
   And user should be able to validate json schema for userSkillMapAPI                                       # stepDefinitions.UserSkillMapAPISteps.user_should_be_able_to_validate_json_schema_for_user_skill_map_api()
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;User should not be able to get all users with all skill details by sending GET request with no credentials&quot;, &quot;Testing UserSkillMapGetAPI Using CRUD Method&quot;](21)" classname="testrunner.TestRestAPIRunner" time="0.287">
+  <testcase name="runScenario[&quot;User should be able to send PUT request with valid credentials&quot;, &quot;Testing UserAPI Using CRUD Method&quot;](20)" classname="testrunner.TestRestAPIRunner" time="0.112">
+    <system-out><![CDATA[
+@UserSkillMapGet
+Scenario: User should not be able to get all users with all skill details by sending GET request with no credentials # features/userSkillMapGetAPI.feature:4
+  Given user provides baseUri with no authetication details                                                          # stepDefinitions.CommonStepDef.user_provides_base_uri_for_with_no_authetication_details()
+  When user sends PUT request with updated valid Json body and specific skill id # stepDefinitions.SkillAPISteps.user_sends_put_request_with_updated_valid_json_body_and_specific_skill_id()
+  Then user should receive response status code as 201                           # stepDefinitions.CommonStepDef.user_should_receive_response_status_code_as(java.lang.Integer)
+  And user should also receive the message "Successfully Updated !!"             # stepDefinitions.CommonStepDef.user_should_also_receive_the_message(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;User should not be able to get all users with all skill details by sending GET request with no credentials&quot;, &quot;Testing UserSkillMapGetAPI Using CRUD Method&quot;](21)" classname="testrunner.TestRestAPIRunner" time="0.347">
     <system-out><![CDATA[
 @UserSkillMapGet
 Scenario: User should be able to get all users with all skill details by sending GET request with valid credentials # features/userSkillMapGetAPI.feature:9
   Given user provides baseUri with valid authetication details                                                      # stepDefinitions.CommonStepDef.user_provides_base_uri_with_valid_authetication_details()
-{"user_skill_id":"US4477","user_id":"U5064","skill_id":3968,"months_of_exp":12,"message_response":"Successfully Created !!"}
+{"user_skill_id":"US4479","user_id":"U5064","skill_id":3968,"months_of_exp":12,"message_response":"Successfully Created !!"}
   When user sends GET request to get all users with all skill details with valid endpoint                            # stepDefinitions.UserSkillMapGetAPISteps.user_sends_get_request_to_get_all_users_with_all_skill_details_with_valid_endpoint()
   Then user should receive response status code as 401                                                               # stepDefinitions.CommonStepDef.user_should_receive_response_status_code_as(java.lang.Integer)
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;User should be able to send PUT request with valid credentials&quot;, &quot;Testing UserAPI Using CRUD Method&quot;](22)" classname="testrunner.TestRestAPIRunner" time="0.279">
+  <testcase name="runScenario[&quot;User should be able to send PUT request with valid credentials&quot;, &quot;Testing UserAPI Using CRUD Method&quot;](22)" classname="testrunner.TestRestAPIRunner" time="0.398">
     <system-out><![CDATA[
 @UserSkillMapGet
 Scenario: User should not be able to get single user with skill details by sending GET request with invalid user id # features/userSkillMapGetAPI.feature:15
@@ -334,7 +334,7 @@ Scenario: User should not be able to get single user with skill details by sendi
   And user should also receive the message "Successfully Updated !!"                                   # stepDefinitions.CommonStepDef.user_should_also_receive_the_message(java.lang.String)
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;User should not be able to get single user with skill details by sending GET request with invalid user id&quot;, &quot;Testing UserSkillMapGetAPI Using CRUD Method&quot;](23)" classname="testrunner.TestRestAPIRunner" time="0.312">
+  <testcase name="runScenario[&quot;User should not be able to get single user with skill details by sending GET request with invalid user id&quot;, &quot;Testing UserSkillMapGetAPI Using CRUD Method&quot;](23)" classname="testrunner.TestRestAPIRunner" time="0.2">
     <system-out><![CDATA[
 @UserSkillMapGet
 Scenario: User should be able to get single user with skill details by sending GET request with specific user id and valid credentials # features/userSkillMapGetAPI.feature:20
@@ -343,49 +343,49 @@ Scenario: User should be able to get single user with skill details by sending G
   Then user should receive response status code as 404                                                              # stepDefinitions.CommonStepDef.user_should_receive_response_status_code_as(java.lang.Integer)
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;User should not be able to get already deleted or non-existing user id&quot;, &quot;Testing UserAPI Using CRUD Method&quot;](24)" classname="testrunner.TestRestAPIRunner" time="0.326">
+  <testcase name="runScenario[&quot;User should not be able to get already deleted or non-existing user id&quot;, &quot;Testing UserAPI Using CRUD Method&quot;](24)" classname="testrunner.TestRestAPIRunner" time="0.22">
     <system-out><![CDATA[  When user sends GET request for non-existing userId                            # stepDefinitions.UserAPISteps.user_sends_delete_request_for_already_deleted_or_non_existing_user_id()
   Then user should receive response status code as 404                           # stepDefinitions.CommonStepDef.user_should_receive_response_status_code_as(java.lang.Integer)
   And user should also receive the message "User(non-existing) Not Found !!"     # stepDefinitions.CommonStepDef.user_should_also_receive_the_message(java.lang.String)
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;User should not be able to create a new user skill mapping detail by sending POST request with invalid data&quot;, &quot;Testing UserSkillMapAPI Using CRUD Method&quot;](25)" classname="testrunner.TestRestAPIRunner" time="1.68">
-    <system-out><![CDATA[US4478
+  <testcase name="runScenario[&quot;User should not be able to create a new user skill mapping detail by sending POST request with invalid data&quot;, &quot;Testing UserSkillMapAPI Using CRUD Method&quot;](25)" classname="testrunner.TestRestAPIRunner" time="1.734">
+    <system-out><![CDATA[US4480
   When user sends POST request with invalid Json body and header for userSkillMapAPI                                  # stepDefinitions.UserSkillMapAPISteps.user_sends_post_request_with_invalid_json_body_and_header_for_user_skill_map_api()
   Then user should receive response status code as 404                                                                # stepDefinitions.CommonStepDef.user_should_receive_response_status_code_as(java.lang.Integer)
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;User should not able to update an existing user skill mapping detail by sending PUT request&quot;, &quot;Testing UserSkillMapAPI Using CRUD Method&quot;](26)" classname="testrunner.TestRestAPIRunner" time="1.944">
-    <system-out><![CDATA[  When user sends PUT request with invalid path parameter                                             # stepDefinitions.UserSkillMapAPISteps.user_sends_put_request_with_invalid_users_skill_id_as_path_parameter()
+  <testcase name="runScenario[&quot;User should not able to update an existing user skill mapping detail by sending PUT request&quot;, &quot;Testing UserSkillMapAPI Using CRUD Method&quot;](26)" classname="testrunner.TestRestAPIRunner" time="2.104">
+    <system-out><![CDATA[{"user_skill_id":"US4480","user_id":"U5064","skill_id":3968,"months_of_exp":12,"message_response":"Successfully Updated !!"}
+  When user sends PUT request with invalid path parameter                                             # stepDefinitions.UserSkillMapAPISteps.user_sends_put_request_with_invalid_users_skill_id_as_path_parameter()
   Then user should receive response status code as 404                                                # stepDefinitions.CommonStepDef.user_should_receive_response_status_code_as(java.lang.Integer)
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;User should be able to send DELETE request for exising user skill mapping detail&quot;, &quot;Testing UserSkillMapAPI Using CRUD Method&quot;](27)" classname="testrunner.TestRestAPIRunner" time="2.114">
-    <system-out><![CDATA[{"user_skill_id":"US4478","user_id":"U5064","skill_id":3968,"months_of_exp":12,"message_response":"Successfully Updated !!"}
-  When user sends DELETE request for specific users skill id                               # stepDefinitions.UserSkillMapAPISteps.user_sends_delete_request_for_specific_users_skill_id()
+  <testcase name="runScenario[&quot;User should be able to send DELETE request for exising user skill mapping detail&quot;, &quot;Testing UserSkillMapAPI Using CRUD Method&quot;](27)" classname="testrunner.TestRestAPIRunner" time="2.387">
+    <system-out><![CDATA[  When user sends DELETE request for specific users skill id                               # stepDefinitions.UserSkillMapAPISteps.user_sends_delete_request_for_specific_users_skill_id()
   Then user should receive response status code as 200                                     # stepDefinitions.CommonStepDef.user_should_receive_response_status_code_as(java.lang.Integer)
   And user should also receive the message "The record has been deleted !!"                # stepDefinitions.CommonStepDef.user_should_also_receive_the_message(java.lang.String)
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;User should be able to create a new user skill mapping detail by sending POST request with valid data&quot;, &quot;Testing UserSkillMapAPI Using CRUD Method&quot;](28)" classname="testrunner.TestRestAPIRunner" time="2.456">
+  <testcase name="runScenario[&quot;User should be able to get all users with all skill details by sending GET request with valid credentials&quot;, &quot;Testing UserSkillMapGetAPI Using CRUD Method&quot;](28)" classname="testrunner.TestRestAPIRunner" time="2.429">
+    <system-out><![CDATA[  When user sends GET request to get all users with all skill details with valid endpoint                           # stepDefinitions.UserSkillMapGetAPISteps.user_sends_get_request_to_get_all_users_with_all_skill_details_with_valid_endpoint()
+  Then user should receive response status code as 200                                                              # stepDefinitions.CommonStepDef.user_should_receive_response_status_code_as(java.lang.Integer)
+  And user receives response content-type as "aplication/json"                                                      # stepDefinitions.CommonStepDef.user_receives_response_content_type_as(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;User should be able to create a new user skill mapping detail by sending POST request with valid data&quot;, &quot;Testing UserSkillMapAPI Using CRUD Method&quot;](29)" classname="testrunner.TestRestAPIRunner" time="2.57">
     <system-out><![CDATA[  When user sends POST request with valid Json body and header for userSkillMapAPI                              # stepDefinitions.UserSkillMapAPISteps.user_sends_post_request_with_valid_json_body_and_header_for_user_skill_map_api()
   Then user should receive response status code as 201                                                          # stepDefinitions.CommonStepDef.user_should_receive_response_status_code_as(java.lang.Integer)
   And user should be able to validate the response body for userSkillMapAPI                                     # stepDefinitions.UserSkillMapAPISteps.user_should_be_able_to_validate_the_response_body_for_user_skill_map_api()
   And user should also receive the message "Successfully Created !!"                                            # stepDefinitions.CommonStepDef.user_should_also_receive_the_message(java.lang.String)
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;User should not be able to get already deleted or non-existing user id&quot;, &quot;Testing UserSkillMapAPI Using CRUD Method&quot;](29)" classname="testrunner.TestRestAPIRunner" time="2.657">
+  <testcase name="runScenario[&quot;User should not be able to get already deleted or non-existing user id&quot;, &quot;Testing UserSkillMapAPI Using CRUD Method&quot;](30)" classname="testrunner.TestRestAPIRunner" time="2.709">
     <system-out><![CDATA[  When user sends DELETE request for already deleted or non-existing users skill id # stepDefinitions.UserSkillMapAPISteps.user_sends_get_request_for_already_deleted_or_non_existing_users_skill_id()
   Then user should receive response status code as 404                              # stepDefinitions.CommonStepDef.user_should_receive_response_status_code_as(java.lang.Integer)
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;User should be able to get all users with all skill details by sending GET request with valid credentials&quot;, &quot;Testing UserSkillMapGetAPI Using CRUD Method&quot;](30)" classname="testrunner.TestRestAPIRunner" time="2.954">
-    <system-out><![CDATA[  When user sends GET request to get all users with all skill details with valid endpoint                           # stepDefinitions.UserSkillMapGetAPISteps.user_sends_get_request_to_get_all_users_with_all_skill_details_with_valid_endpoint()
-  Then user should receive response status code as 200                                                              # stepDefinitions.CommonStepDef.user_should_receive_response_status_code_as(java.lang.Integer)
-  And user receives response content-type as "aplication/json"                                                      # stepDefinitions.CommonStepDef.user_receives_response_content_type_as(java.lang.String)
-]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;User should be able to get single user with skill details by sending GET request with specific user id and valid credentials&quot;, &quot;Testing UserSkillMapGetAPI Using CRUD Method&quot;](31)" classname="testrunner.TestRestAPIRunner" time="4.264">
+  <testcase name="runScenario[&quot;User should be able to get single user with skill details by sending GET request with specific user id and valid credentials&quot;, &quot;Testing UserSkillMapGetAPI Using CRUD Method&quot;](31)" classname="testrunner.TestRestAPIRunner" time="4.14">
     <system-out><![CDATA[U23
 User ID is: U23
 UserSkillsMap/U23
@@ -394,7 +394,7 @@ UserSkillsMap/U23
   And user should be able to validate json schema for usersSkillsMapGetAPI                                                             # stepDefinitions.UserSkillMapGetAPISteps.user_should_be_able_to_validate_json_schema_for_users_skills_map_get_api()
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;User should not able to update an existing user skill mapping detail by sending PUT request&quot;, &quot;Testing UserSkillMapAPI Using CRUD Method&quot;](32)" classname="testrunner.TestRestAPIRunner" time="4.983">
+  <testcase name="runScenario[&quot;User should not able to update an existing user skill mapping detail by sending PUT request&quot;, &quot;Testing UserSkillMapAPI Using CRUD Method&quot;](32)" classname="testrunner.TestRestAPIRunner" time="4.887">
     <system-out><![CDATA[  When user sends PUT request with valid users skill id as path parameter                             # stepDefinitions.UserSkillMapAPISteps.user_sends_put_request_with_valid_users_skill_id_as_path_parameter()
   Then user should receive response status code as 201                                                # stepDefinitions.CommonStepDef.user_should_receive_response_status_code_as(java.lang.Integer)
   And user should also receive the message "Successfully Updated !!"                                  # stepDefinitions.CommonStepDef.user_should_also_receive_the_message(java.lang.String)
