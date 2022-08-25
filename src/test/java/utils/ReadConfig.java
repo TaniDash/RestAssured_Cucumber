@@ -30,22 +30,33 @@ public class ReadConfig {
 	}
 	
 	public String getBaseUri() {
-		String baseURI=prop.getProperty("baseUri");
+		String baseURI=prop.getProperty("baseURI");
 		return baseURI ;
 	}
 	
-	public String getEndpoint() {
-		String endpoint=prop.getProperty("endpoint");
+	public String getUserAPIEndpoint() {
+		String endpoint=prop.getProperty("userAPIendpoint");
 		return endpoint ;
 	}
 	
-	public String getUserSkillsMapEndpoint() {
-		String userSkillsMapEndpoint=prop.getProperty("userSkillsMapEndpoint");
-		return userSkillsMapEndpoint ;
+	public String getUserSkillsMapEndpointForUser() {
+		String userSkillsMapEndpointForUser=prop.getProperty("userSkillsMapEndpointForUser");
+		return userSkillsMapEndpointForUser ;
 	}
 	
-	public int getOkCode() {
-		int code=Integer.parseInt(prop.getProperty("okcode"));
-		return code ;
+	public String getUsersSkillsMapEndpointForSkillId() {
+		String usersSkillsMapEndpoint=prop.getProperty("usersSkillsMap");
+		return usersSkillsMapEndpoint ;
 	}
+	
+	public String getSkillAPIEndpoint() {
+		String skillAPI=prop.getProperty("skillAPI");
+		return skillAPI ;
+	}
+	
+	public String getUserSkillMapAPIEnd() {
+		String userSkillMapAPI=prop.getProperty("userSkillMapAPI");
+		return userSkillMapAPI ;
+	}
+
 }

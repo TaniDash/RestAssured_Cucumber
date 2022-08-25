@@ -1,0 +1,43 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "user_id",
+        "skill_id",
+        "months_of_exp"
+    ],
+    "properties": {
+        "user_id": {
+            "type": "string",
+            "default": "",
+            "title": "The user_id Schema",
+            "examples": [
+                "U16"
+            ]
+        },
+        "skill_id": {
+            "type": "integer",
+            "default": 0,
+            "title": "The skill_id Schema",
+            "examples": [
+                2
+            ]
+        },
+        "months_of_exp": {
+            "type": "integer",
+            "default": 0,
+            "title": "The months_of_exp Schema",
+            "examples": [
+                1
+            ]
+        }
+    },
+    "examples": [{
+        "user_id": "U16",
+        "skill_id": 2,
+        "months_of_exp": 1
+    }]
+}

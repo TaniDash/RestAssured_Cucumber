@@ -1,0 +1,73 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "user_id",
+        "name",
+        "phone_number",
+        "location",
+        "time_zone",
+        "linkedin_url"
+    ],
+    "properties": {
+        "user_id": {
+            "type": "string",
+            "default": "",
+            "title": "The user_id Schema",
+            "examples": [
+                "U4615"
+            ]
+        },
+        "name": {
+            "type": "string",
+            "default": "",
+            "title": "The name Schema",
+            "examples": [
+                "John,Jonas"
+            ]
+        },
+        "phone_number": {
+            "type": "integer",
+            "default": 0,
+            "title": "The phone_number Schema",
+            "examples": [
+                6179388179
+            ]
+        },
+        "location": {
+            "type": "string",
+            "default": "",
+            "title": "The location Schema",
+            "examples": [
+                "MA"
+            ]
+        },
+        "time_zone": {
+            "type": "string",
+            "default": "",
+            "title": "The time_zone Schema",
+            "examples": [
+                "EST"
+            ]
+        },
+        "linkedin_url": {
+            "type": "string",
+            "default": "",
+            "title": "The linkedin_url Schema",
+            "examples": [
+                "www.linkedin.com/John"
+            ]
+        }
+    },
+    "examples": [{
+        "user_id": "U4615",
+        "name": "John,Jonas",
+        "phone_number": 6179388179,
+        "location": "MA",
+        "time_zone": "EST",
+        "linkedin_url": "www.linkedin.com/John"
+    }]
+}

@@ -1,0 +1,532 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "users"
+    ],
+    "properties": {
+        "users": {
+            "type": "object",
+            "default": {},
+            "title": "The users Schema",
+            "required": [
+                "id",
+                "firstName",
+                "lastName",
+                "skillmap"
+            ],
+            "properties": {
+                "id": {
+                    "type": "string",
+                    "default": "",
+                    "title": "The id Schema",
+                    "examples": [
+                        "U23"
+                    ]
+                },
+                "firstName": {
+                    "type": "string",
+                    "default": "",
+                    "title": "The firstName Schema",
+                    "examples": [
+                        "John"
+                    ]
+                },
+                "lastName": {
+                    "type": "string",
+                    "default": "",
+                    "title": "The lastName Schema",
+                    "examples": [
+                        "Jonas"
+                    ]
+                },
+                "skillmap": {
+                    "type": "array",
+                    "default": [],
+                    "title": "The skillmap Schema",
+                    "items": {
+                        "type": "object",
+                        "title": "A Schema",
+                        "required": [
+                            "id",
+                            "skill"
+                        ],
+                        "properties": {
+                            "id": {
+                                "type": "integer",
+                                "title": "The id Schema",
+                                "examples": [
+                                    1,
+                                    4,
+                                    3,
+                                    2,
+                                    69
+                                ]
+                            },
+                            "skill": {
+                                "type": "string",
+                                "title": "The skill Schema",
+                                "examples": [
+                                    "java987",
+                                    "Spring Tool",
+                                    "Abstracting",
+                                    "Abstract",
+                                    "SDETUvsk"
+                                ]
+                            }
+                        },
+                        "examples": [{
+                            "id": 1,
+                            "skill": "java987"
+                        },
+                        {
+                            "id": 4,
+                            "skill": "Spring Tool"
+                        },
+                        {
+                            "id": 1,
+                            "skill": "java987"
+                        },
+                        {
+                            "id": 1,
+                            "skill": "java987"
+                        },
+                        {
+                            "id": 1,
+                            "skill": "java987"
+                        },
+                        {
+                            "id": 3,
+                            "skill": "Abstracting"
+                        },
+                        {
+                            "id": 2,
+                            "skill": "Abstract"
+                        },
+                        {
+                            "id": 1,
+                            "skill": "java987"
+                        },
+                        {
+                            "id": 1,
+                            "skill": "java987"
+                        },
+                        {
+                            "id": 1,
+                            "skill": "java987"
+                        },
+                        {
+                            "id": 4,
+                            "skill": "Spring Tool"
+                        },
+                        {
+                            "id": 2,
+                            "skill": "Abstract"
+                        },
+                        {
+                            "id": 2,
+                            "skill": "Abstract"
+                        },
+                        {
+                            "id": 1,
+                            "skill": "java987"
+                        },
+                        {
+                            "id": 1,
+                            "skill": "java987"
+                        },
+                        {
+                            "id": 2,
+                            "skill": "Abstract"
+                        },
+                        {
+                            "id": 1,
+                            "skill": "java987"
+                        },
+                        {
+                            "id": 2,
+                            "skill": "Abstract"
+                        },
+                        {
+                            "id": 1,
+                            "skill": "java987"
+                        },
+                        {
+                            "id": 1,
+                            "skill": "java987"
+                        },
+                        {
+                            "id": 69,
+                            "skill": "SDETUvsk"
+                        },
+                        {
+                            "id": 1,
+                            "skill": "java987"
+                        },
+                        {
+                            "id": 1,
+                            "skill": "java987"
+                        },
+                        {
+                            "id": 3,
+                            "skill": "Abstracting"
+                        },
+                        {
+                            "id": 1,
+                            "skill": "java987"
+                        },
+                        {
+                            "id": 1,
+                            "skill": "java987"
+                        },
+                        {
+                            "id": 1,
+                            "skill": "java987"
+                        }]
+                    },
+                    "examples": [
+                        [{
+                            "id": 1,
+                            "skill": "java987"
+                        },
+                        {
+                            "id": 4,
+                            "skill": "Spring Tool"
+                        },
+                        {
+                            "id": 1,
+                            "skill": "java987"
+                        },
+                        {
+                            "id": 1,
+                            "skill": "java987"
+                        },
+                        {
+                            "id": 1,
+                            "skill": "java987"
+                        },
+                        {
+                            "id": 3,
+                            "skill": "Abstracting"
+                        },
+                        {
+                            "id": 2,
+                            "skill": "Abstract"
+                        },
+                        {
+                            "id": 1,
+                            "skill": "java987"
+                        },
+                        {
+                            "id": 1,
+                            "skill": "java987"
+                        },
+                        {
+                            "id": 1,
+                            "skill": "java987"
+                        },
+                        {
+                            "id": 4,
+                            "skill": "Spring Tool"
+                        },
+                        {
+                            "id": 2,
+                            "skill": "Abstract"
+                        },
+                        {
+                            "id": 2,
+                            "skill": "Abstract"
+                        },
+                        {
+                            "id": 1,
+                            "skill": "java987"
+                        },
+                        {
+                            "id": 1,
+                            "skill": "java987"
+                        },
+                        {
+                            "id": 2,
+                            "skill": "Abstract"
+                        },
+                        {
+                            "id": 1,
+                            "skill": "java987"
+                        },
+                        {
+                            "id": 2,
+                            "skill": "Abstract"
+                        },
+                        {
+                            "id": 1,
+                            "skill": "java987"
+                        },
+                        {
+                            "id": 1,
+                            "skill": "java987"
+                        },
+                        {
+                            "id": 69,
+                            "skill": "SDETUvsk"
+                        },
+                        {
+                            "id": 1,
+                            "skill": "java987"
+                        },
+                        {
+                            "id": 1,
+                            "skill": "java987"
+                        },
+                        {
+                            "id": 3,
+                            "skill": "Abstracting"
+                        },
+                        {
+                            "id": 1,
+                            "skill": "java987"
+                        },
+                        {
+                            "id": 1,
+                            "skill": "java987"
+                        },
+                        {
+                            "id": 1,
+                            "skill": "java987"
+                        }]
+                    ]
+                }
+            },
+            "examples": [{
+                "id": "U23",
+                "firstName": "John",
+                "lastName": "Jonas",
+                "skillmap": [{
+                    "id": 1,
+                    "skill": "java987"
+                },
+                {
+                    "id": 4,
+                    "skill": "Spring Tool"
+                },
+                {
+                    "id": 1,
+                    "skill": "java987"
+                },
+                {
+                    "id": 1,
+                    "skill": "java987"
+                },
+                {
+                    "id": 1,
+                    "skill": "java987"
+                },
+                {
+                    "id": 3,
+                    "skill": "Abstracting"
+                },
+                {
+                    "id": 2,
+                    "skill": "Abstract"
+                },
+                {
+                    "id": 1,
+                    "skill": "java987"
+                },
+                {
+                    "id": 1,
+                    "skill": "java987"
+                },
+                {
+                    "id": 1,
+                    "skill": "java987"
+                },
+                {
+                    "id": 4,
+                    "skill": "Spring Tool"
+                },
+                {
+                    "id": 2,
+                    "skill": "Abstract"
+                },
+                {
+                    "id": 2,
+                    "skill": "Abstract"
+                },
+                {
+                    "id": 1,
+                    "skill": "java987"
+                },
+                {
+                    "id": 1,
+                    "skill": "java987"
+                },
+                {
+                    "id": 2,
+                    "skill": "Abstract"
+                },
+                {
+                    "id": 1,
+                    "skill": "java987"
+                },
+                {
+                    "id": 2,
+                    "skill": "Abstract"
+                },
+                {
+                    "id": 1,
+                    "skill": "java987"
+                },
+                {
+                    "id": 1,
+                    "skill": "java987"
+                },
+                {
+                    "id": 69,
+                    "skill": "SDETUvsk"
+                },
+                {
+                    "id": 1,
+                    "skill": "java987"
+                },
+                {
+                    "id": 1,
+                    "skill": "java987"
+                },
+                {
+                    "id": 3,
+                    "skill": "Abstracting"
+                },
+                {
+                    "id": 1,
+                    "skill": "java987"
+                },
+                {
+                    "id": 1,
+                    "skill": "java987"
+                },
+                {
+                    "id": 1,
+                    "skill": "java987"
+                }]
+            }]
+        }
+    },
+    "examples": [{
+        "users": {
+            "id": "U23",
+            "firstName": "John",
+            "lastName": "Jonas",
+            "skillmap": [{
+                "id": 1,
+                "skill": "java987"
+            },
+            {
+                "id": 4,
+                "skill": "Spring Tool"
+            },
+            {
+                "id": 1,
+                "skill": "java987"
+            },
+            {
+                "id": 1,
+                "skill": "java987"
+            },
+            {
+                "id": 1,
+                "skill": "java987"
+            },
+            {
+                "id": 3,
+                "skill": "Abstracting"
+            },
+            {
+                "id": 2,
+                "skill": "Abstract"
+            },
+            {
+                "id": 1,
+                "skill": "java987"
+            },
+            {
+                "id": 1,
+                "skill": "java987"
+            },
+            {
+                "id": 1,
+                "skill": "java987"
+            },
+            {
+                "id": 4,
+                "skill": "Spring Tool"
+            },
+            {
+                "id": 2,
+                "skill": "Abstract"
+            },
+            {
+                "id": 2,
+                "skill": "Abstract"
+            },
+            {
+                "id": 1,
+                "skill": "java987"
+            },
+            {
+                "id": 1,
+                "skill": "java987"
+            },
+            {
+                "id": 2,
+                "skill": "Abstract"
+            },
+            {
+                "id": 1,
+                "skill": "java987"
+            },
+            {
+                "id": 2,
+                "skill": "Abstract"
+            },
+            {
+                "id": 1,
+                "skill": "java987"
+            },
+            {
+                "id": 1,
+                "skill": "java987"
+            },
+            {
+                "id": 69,
+                "skill": "SDETUvsk"
+            },
+            {
+                "id": 1,
+                "skill": "java987"
+            },
+            {
+                "id": 1,
+                "skill": "java987"
+            },
+            {
+                "id": 3,
+                "skill": "Abstracting"
+            },
+            {
+                "id": 1,
+                "skill": "java987"
+            },
+            {
+                "id": 1,
+                "skill": "java987"
+            },
+            {
+                "id": 1,
+                "skill": "java987"
+            }]
+        }
+    }]
+}
