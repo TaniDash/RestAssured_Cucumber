@@ -2,138 +2,26 @@
 <testng-results skipped="0" failed="0" ignored="0" total="32" passed="32">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="13541" started-at="2022-08-24T22:44:45 PDT" finished-at="2022-08-24T22:44:58 PDT">
+  <suite name="Surefire suite" duration-ms="38076" started-at="2022-09-05T10:10:14 PDT" finished-at="2022-09-05T10:10:52 PDT">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@27808f31]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@5e82df6a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Surefire test" duration-ms="13541" started-at="2022-08-24T22:44:45 PDT" finished-at="2022-08-24T22:44:58 PDT">
+    <test name="Surefire test" duration-ms="38076" started-at="2022-09-05T10:10:14 PDT" finished-at="2022-09-05T10:10:52 PDT">
       <class name="testrunner.TestRestAPIRunner">
-        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testrunner.TestRestAPIRunner@27808f31]" name="setUpClass" is-config="true" duration-ms="245" started-at="2022-08-24T22:44:45 PDT" finished-at="2022-08-24T22:44:45 PDT">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testrunner.TestRestAPIRunner@5e82df6a]" name="setUpClass" is-config="true" duration-ms="257" started-at="2022-09-05T10:10:14 PDT" finished-at="2022-09-05T10:10:15 PDT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@134593bf]]>
+                <![CDATA[org.testng.TestRunner@38d8f54a]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@27808f31]" name="runScenario" duration-ms="4653" started-at="2022-08-24T22:44:45 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-24T22:44:50 PDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User should be able to get skill data by sending GET request for specific skill id"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Testing UserAPI Using CRUD Method"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@27808f31]" name="runScenario" duration-ms="2529" started-at="2022-08-24T22:44:45 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-24T22:44:48 PDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User should not be able to get all users by sending GET request with no credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Testing UserAPI Using CRUD Method"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@27808f31]" name="runScenario" duration-ms="2751" started-at="2022-08-24T22:44:45 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-24T22:44:48 PDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User should not be able to send PUT request with invalid data"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Testing UserAPI Using CRUD Method"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@27808f31]" name="runScenario" duration-ms="2756" started-at="2022-08-24T22:44:45 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-24T22:44:48 PDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User should be able to get all skill data by sending GET request with valid authetication"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Testing UserAPI Using CRUD Method"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@27808f31]" name="runScenario" duration-ms="6362" started-at="2022-08-24T22:44:45 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-24T22:44:52 PDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User should not be able to create new user by sending already existing skill id"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Testing UserAPI Using CRUD Method"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@27808f31]" name="runScenario" duration-ms="5685" started-at="2022-08-24T22:44:45 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-24T22:44:51 PDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User should be able to send DELETE request with valid credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Testing UserAPI Using CRUD Method"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@27808f31]" name="runScenario" duration-ms="7149" started-at="2022-08-24T22:44:45 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-24T22:44:52 PDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User should be able to send PUT request with valid credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Testing UserAPI Using CRUD Method"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@27808f31]" name="runScenario" duration-ms="6257" started-at="2022-08-24T22:44:45 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-24T22:44:51 PDT">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@5e82df6a]" name="runScenario" duration-ms="30400" started-at="2022-09-05T10:10:15 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-05T10:10:45 PDT">
           <params>
             <param index="0">
               <value>
@@ -149,135 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@27808f31]" name="runScenario" duration-ms="3282" started-at="2022-08-24T22:44:45 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-24T22:44:49 PDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User should not be able to get already deleted or non-existing skill id"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Testing UserAPI Using CRUD Method"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@27808f31]" name="runScenario" duration-ms="2529" started-at="2022-08-24T22:44:45 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-24T22:44:48 PDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User should not be able to get all skill data by sending GET request with no authetication"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Testing UserAPI Using CRUD Method"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@27808f31]" name="runScenario" duration-ms="642" started-at="2022-08-24T22:44:48 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-24T22:44:48 PDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User should be able to send GET request with valid credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Testing UserAPI Using CRUD Method"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@27808f31]" name="runScenario" duration-ms="2121" started-at="2022-08-24T22:44:48 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-24T22:44:50 PDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User should be able to send GET request by specific user id"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Testing UserAPI Using CRUD Method"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@27808f31]" name="runScenario" duration-ms="614" started-at="2022-08-24T22:44:48 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-24T22:44:49 PDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User should not be able to get valid user details by sending GET request with invalid user id"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Testing UserAPI Using CRUD Method"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@27808f31]" name="runScenario" duration-ms="3975" started-at="2022-08-24T22:44:48 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-24T22:44:52 PDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User should be able to send POST request with valid credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Testing UserAPI Using CRUD Method"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@27808f31]" name="runScenario" duration-ms="1381" started-at="2022-08-24T22:44:48 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-24T22:44:50 PDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User should not be able to create new user by sending invalid request body in POST request"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Testing UserAPI Using CRUD Method"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@27808f31]" name="runScenario" duration-ms="4613" started-at="2022-08-24T22:44:49 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-24T22:44:53 PDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User should be able to send PUT request with valid credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Testing UserAPI Using CRUD Method"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@27808f31]" name="runScenario" duration-ms="3613" started-at="2022-08-24T22:44:49 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-24T22:44:52 PDT">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@5e82df6a]" name="runScenario" duration-ms="26455" started-at="2022-09-05T10:10:15 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-05T10:10:41 PDT">
           <params>
             <param index="0">
               <value>
@@ -293,7 +53,247 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@27808f31]" name="runScenario" duration-ms="3556" started-at="2022-08-24T22:44:50 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-24T22:44:53 PDT">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@5e82df6a]" name="runScenario" duration-ms="25377" started-at="2022-09-05T10:10:15 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-05T10:10:40 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should not be able to send PUT request with invalid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing UserAPI Using CRUD Method"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@5e82df6a]" name="runScenario" duration-ms="24471" started-at="2022-09-05T10:10:15 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-05T10:10:39 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should not be able to get already deleted or non-existing skill id"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing UserAPI Using CRUD Method"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@5e82df6a]" name="runScenario" duration-ms="25354" started-at="2022-09-05T10:10:15 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-05T10:10:40 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should be able to get all skill data by sending GET request with valid authetication"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing UserAPI Using CRUD Method"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@5e82df6a]" name="runScenario" duration-ms="31365" started-at="2022-09-05T10:10:15 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-05T10:10:46 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should be able to send PUT request with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing UserAPI Using CRUD Method"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@5e82df6a]" name="runScenario" duration-ms="22383" started-at="2022-09-05T10:10:15 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-05T10:10:37 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should not be able to get all skill data by sending GET request with no authetication"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing UserAPI Using CRUD Method"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@5e82df6a]" name="runScenario" duration-ms="28718" started-at="2022-09-05T10:10:15 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-05T10:10:43 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should be able to get skill data by sending GET request for specific skill id"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing UserAPI Using CRUD Method"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@5e82df6a]" name="runScenario" duration-ms="29476" started-at="2022-09-05T10:10:15 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-05T10:10:44 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should not be able to create new user by sending already existing skill id"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing UserAPI Using CRUD Method"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@5e82df6a]" name="runScenario" duration-ms="22381" started-at="2022-09-05T10:10:15 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-05T10:10:37 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should not be able to get all users by sending GET request with no credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing UserAPI Using CRUD Method"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@5e82df6a]" name="runScenario" duration-ms="2950" started-at="2022-09-05T10:10:37 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-05T10:10:40 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should be able to send GET request with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing UserAPI Using CRUD Method"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@5e82df6a]" name="runScenario" duration-ms="6208" started-at="2022-09-05T10:10:37 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-05T10:10:43 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should be able to send GET request by specific user id"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing UserAPI Using CRUD Method"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@5e82df6a]" name="runScenario" duration-ms="951" started-at="2022-09-05T10:10:39 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-05T10:10:40 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should not be able to get valid user details by sending GET request with invalid user id"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing UserAPI Using CRUD Method"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@5e82df6a]" name="runScenario" duration-ms="5065" started-at="2022-09-05T10:10:40 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-05T10:10:45 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should be able to send POST request with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing UserAPI Using CRUD Method"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@5e82df6a]" name="runScenario" duration-ms="2018" started-at="2022-09-05T10:10:40 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-05T10:10:42 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should not be able to create new user by sending invalid request body in POST request"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing UserAPI Using CRUD Method"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@5e82df6a]" name="runScenario" duration-ms="6000" started-at="2022-09-05T10:10:40 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-05T10:10:46 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should be able to send PUT request with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing UserAPI Using CRUD Method"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@5e82df6a]" name="runScenario" duration-ms="3983" started-at="2022-09-05T10:10:40 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-05T10:10:44 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should be able to send DELETE request with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing UserAPI Using CRUD Method"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@5e82df6a]" name="runScenario" duration-ms="3942" started-at="2022-09-05T10:10:41 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-05T10:10:45 PDT">
           <params>
             <param index="0">
               <value>
@@ -309,23 +309,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@27808f31]" name="runScenario" duration-ms="743" started-at="2022-08-24T22:44:50 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-24T22:44:51 PDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User should be able to get all user-skill data by sending GET request with valid authetication"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Testing UserSkillMapAPI Using CRUD Method"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@27808f31]" name="runScenario" duration-ms="477" started-at="2022-08-24T22:44:50 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-24T22:44:50 PDT">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@5e82df6a]" name="runScenario" duration-ms="960" started-at="2022-09-05T10:10:42 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-05T10:10:43 PDT">
           <params>
             <param index="0">
               <value>
@@ -341,7 +325,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@27808f31]" name="runScenario" duration-ms="1904" started-at="2022-08-24T22:44:50 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-24T22:44:52 PDT">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@5e82df6a]" name="runScenario" duration-ms="1096" started-at="2022-09-05T10:10:43 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-05T10:10:44 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should be able to get all user-skill data by sending GET request with valid authetication"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing UserSkillMapAPI Using CRUD Method"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@5e82df6a]" name="runScenario" duration-ms="2674" started-at="2022-09-05T10:10:43 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-05T10:10:46 PDT">
           <params>
             <param index="0">
               <value>
@@ -357,7 +357,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@27808f31]" name="runScenario" duration-ms="607" started-at="2022-08-24T22:44:51 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-24T22:44:51 PDT">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@5e82df6a]" name="runScenario" duration-ms="664" started-at="2022-09-05T10:10:43 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-05T10:10:44 PDT">
           <params>
             <param index="0">
               <value>
@@ -373,7 +373,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@27808f31]" name="runScenario" duration-ms="4778" started-at="2022-08-24T22:44:51 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-24T22:44:56 PDT">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@5e82df6a]" name="runScenario" duration-ms="7535" started-at="2022-09-05T10:10:44 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-05T10:10:52 PDT">
           <params>
             <param index="0">
               <value>
@@ -389,7 +389,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@27808f31]" name="runScenario" duration-ms="3622" started-at="2022-08-24T22:44:51 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-24T22:44:55 PDT">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@5e82df6a]" name="runScenario" duration-ms="3965" started-at="2022-09-05T10:10:44 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-05T10:10:48 PDT">
           <params>
             <param index="0">
               <value>
@@ -405,7 +405,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@27808f31]" name="runScenario" duration-ms="6522" started-at="2022-08-24T22:44:51 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-24T22:44:58 PDT">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@5e82df6a]" name="runScenario" duration-ms="7986" started-at="2022-09-05T10:10:44 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-05T10:10:52 PDT">
           <params>
             <param index="0">
               <value>
@@ -421,7 +421,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@27808f31]" name="runScenario" duration-ms="3637" started-at="2022-08-24T22:44:52 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-24T22:44:55 PDT">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@5e82df6a]" name="runScenario" duration-ms="3921" started-at="2022-09-05T10:10:44 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-05T10:10:48 PDT">
           <params>
             <param index="0">
               <value>
@@ -437,7 +437,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@27808f31]" name="runScenario" duration-ms="3547" started-at="2022-08-24T22:44:52 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-24T22:44:55 PDT">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@5e82df6a]" name="runScenario" duration-ms="3998" started-at="2022-09-05T10:10:45 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-05T10:10:49 PDT">
           <params>
             <param index="0">
               <value>
@@ -453,7 +453,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@27808f31]" name="runScenario" duration-ms="3621" started-at="2022-08-24T22:44:52 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-24T22:44:56 PDT">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@5e82df6a]" name="runScenario" duration-ms="3998" started-at="2022-09-05T10:10:45 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-05T10:10:49 PDT">
           <params>
             <param index="0">
               <value>
@@ -469,7 +469,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@27808f31]" name="runScenario" duration-ms="459" started-at="2022-08-24T22:44:52 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-24T22:44:53 PDT">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@5e82df6a]" name="runScenario" duration-ms="860" started-at="2022-09-05T10:10:45 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-05T10:10:46 PDT">
           <params>
             <param index="0">
               <value>
@@ -485,7 +485,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@27808f31]" name="runScenario" duration-ms="3171" started-at="2022-08-24T22:44:52 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-24T22:44:56 PDT">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@5e82df6a]" name="runScenario" duration-ms="5055" started-at="2022-09-05T10:10:46 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-05T10:10:51 PDT">
           <params>
             <param index="0">
               <value>
@@ -501,7 +501,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@27808f31]" name="runScenario" duration-ms="598" started-at="2022-08-24T22:44:53 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-24T22:44:53 PDT">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@5e82df6a]" name="runScenario" duration-ms="938" started-at="2022-09-05T10:10:46 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-05T10:10:47 PDT">
           <params>
             <param index="0">
               <value>
@@ -517,7 +517,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@27808f31]" name="runScenario" duration-ms="4141" started-at="2022-08-24T22:44:53 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-24T22:44:57 PDT">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRestAPIRunner@5e82df6a]" name="runScenario" duration-ms="6107" started-at="2022-09-05T10:10:46 PDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-05T10:10:52 PDT">
           <params>
             <param index="0">
               <value>
@@ -533,7 +533,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testrunner.TestRestAPIRunner@27808f31]" name="tearDownClass" is-config="true" duration-ms="476" started-at="2022-08-24T22:44:58 PDT" finished-at="2022-08-24T22:44:58 PDT">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testrunner.TestRestAPIRunner@5e82df6a]" name="tearDownClass" is-config="true" duration-ms="265" started-at="2022-09-05T10:10:52 PDT" finished-at="2022-09-05T10:10:52 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
